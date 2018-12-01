@@ -71,6 +71,5 @@ $(document).ready(function(){
 
 		// Append train info to table on page
 		$("#trainTable > tbody").append("<tr><td>" + firebaseName + "</td><td>" + firebaseDestination + "</td><td>" + firebaseFrequency + " mins" + "</td><td>" + nextTrainArrival + "</td><td>" + minutes + "</td></tr>");
-
 	});
 });
